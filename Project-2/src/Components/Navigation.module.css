@@ -1,5 +1,5 @@
 .navbar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     max-width: 1700px;
     padding-top: 10px;
@@ -16,9 +16,15 @@
     font-weight: 600;
     color: black;
 }
+.links a:hover{
+    color: rgb(88, 9, 9);
+    text-decoration: underline;
+
+}
+
 
 .links{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin-right: 40px;
     text-align: center;
@@ -26,6 +32,6 @@
 
 
 .logo img{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 80px;
 }
