@@ -1,0 +1,26 @@
+/* .firstPageContainer{
+    display: flex;
+    border: 2px solid red;
+    margin: 8% auto;
+    max-width: 1500px;
+    text-align: center;
+    justify-content: center;
+} */
+
+/* .firstPageContainer img{
+    height: 600px;
+    display: flex;
+    border: 2px solid rgb(0, 255, 38);
+    justify-self: center;
+} */
+.gameHeading{
+    margin: 15% 5% 2% 10%;
+}
+
+.gameHeading h1{
+    border: 2px solid rgb(0, 255, 38);
+    font-size: 60px;
+    font-weight: 900;
+   
+}
+

@@ -1,0 +1,11 @@
+.buttonsContainer button{
+    display: inline-block;
+    /* margin: 10px; */
+    margin-left: 48%;
+    margin-top: 15px;
+    border: 2px solid rgb(255, 0, 140);
+    padding: 5px 50px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border-radius: 5px;
+}
