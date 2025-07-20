@@ -10,11 +10,11 @@ function App() {
 
   const toggleGamePlay = () => {
     SetIsFirstPage((prev) => !prev);
-  };
+  }
 
   return (
     <>
-    {isFirstPage ? <FirstPage/> : <SecondPage  
+    {isFirstPage ? <SecondPage/> : <FirstPage  
     toggle = {toggleGamePlay}/>}
     {/* <SecondPage/> */}
     </>
