@@ -1,0 +1,87 @@
+main{
+    /* border: 2px solid rgb(5, 114, 52); */
+    margin: 70px auto 0 auto;
+    max-width: 1700px;
+}
+.contents h1{
+    font-weight: 800;
+    padding: 10px 20px;
+    /* font-size: 30px; */
+}
+.contents p{
+    font-size: 18ox;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.mainSection{
+    /* border: 2px solid rgb(200, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.section1{
+    /* border: 2px solid rgb(93, 3, 43); */
+    /* text-align: left; */
+    /* text-align: center; */
+    padding: 20px 20px 0 20px;
+    margin-left: 10px;
+}
+
+
+.section1 .btn{
+    display: flex;
+    gap: 32px;
+}
+
+aside img{
+    height: 550px;
+    margin-right: 100px;
+    /* border: 2px solid red; */
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.formContainer input{
+    padding: 10px 5px 0 5px;
+    font-size: 15px;
+    /* font-weight: 500; */
+}
+
+.formContainer label{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: -16px;
+    left: 20px;
+    padding: 0 5px;
+    background-color: white;
+    color: black;
+}
+.formContainer textarea{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.submit button{
+    background-color: black;
+    color: white;
+    padding: 5px 40px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 2px 0 0 rgb(218, 206, 206);
+}
+
+.submit button:hover{
+    background-color: rgb(218, 206, 206);
+    color: black;
+    box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.614);
+
+}
